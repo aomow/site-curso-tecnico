@@ -1,4 +1,4 @@
-// to get current year
+// função pra pegar o ano atual
 function getYear() {
     var currentDate = new Date();
     var currentYear = currentDate.getFullYear();
