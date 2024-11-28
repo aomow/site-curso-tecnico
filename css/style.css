@@ -6,6 +6,13 @@ body {
   overflow-x: hidden;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .layout_padding {
   padding: 90px 0;
 }
