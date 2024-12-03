@@ -6,6 +6,36 @@ body {
   overflow-x: hidden;
 }
 
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; 
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.image-container img {
+  width: 300px; 
+  height: auto; 
+  border-radius: 30px; 
+  box-shadow: 0 5px 5px #380237;
+}
+
+.image-container2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.image-container2 img {
+  width: 500px; 
+  height: auto; 
+  border-radius: 30px; 
+  box-shadow: 0 4px 8px #380237; 
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -579,8 +609,24 @@ a:focus {
   margin-bottom: 10px;
 }
 
+.why_section .box h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 .why_section .box p {
   margin-bottom: 0;
+  font-weight: 600;
+  text-align: justify;
+  text-shadow: #504147 2px 2px;
+}
+
+.why_section .box p2 {
+  margin-bottom: 0;
+  font-weight: 600;
+  color: #ff0000;
+  text-align: justify;
+  text-shadow: #720000 2px 2px;
 }
 
 .why_section .btn-box {
